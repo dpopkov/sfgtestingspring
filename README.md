@@ -15,3 +15,5 @@ After cloning this repo, from the project root run:
 ```text
 mvn jetty:run-war
 ```
+
+[History](history.md)
