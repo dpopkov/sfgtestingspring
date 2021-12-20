@@ -14,3 +14,7 @@
 * Setting Active Profiles for Tests
     * org.springframework.test.context.ActiveProfiles
     * org.springframework.context.annotation.Profile
+* Spring Test Properties [HearingInterpreterPropertiesTest](src/test/java/org/springframework/samples/petclinic/sfg/junit5/HearingInterpreterPropertiesTest.java)
+    * @Value("${say.word}") -- will be injected by Spring Context
+    * @TestPropertySource("classpath:word.properties")  -- annotate test class
+* Assignment - Create Profile for Properties [HearingInterpreterLaurelPropertiesTest](src/test/java/org/springframework/samples/petclinic/sfg/junit5/HearingInterpreterLaurelPropertiesTest.java)
