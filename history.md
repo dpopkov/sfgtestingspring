@@ -9,3 +9,5 @@
 * Assignment - JUnit 5 Yanny Test [HearingInterpreterYannyTest](src/test/java/org/springframework/samples/petclinic/sfg/junit5/HearingInterpreterYannyTest.java)
 * Using Inner(Nested) Class Configuration [HearingInterpreterNestedClassTest](src/test/java/org/springframework/samples/petclinic/sfg/junit5/HearingInterpreterNestedClassTest.java)
     * @SpringJUnitConfig(classes = HearingInterpreterNestedClassTest.TestConfig.class)
+* Using Component Scans
+    * @Configuration @ComponentScan("org.springframework.samples.petclinic.sfg") static class TestConfig {}

@@ -9,6 +9,7 @@ public class HearingInterpreter {
 
     public HearingInterpreter(WordProducer wordProducer) {
         this.wordProducer = wordProducer;
+        System.out.println("Injected wordProducer type: " + wordProducer.getClass());
     }
 
     public String whaIHeard() {
