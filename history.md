@@ -11,3 +11,6 @@
     * @SpringJUnitConfig(classes = HearingInterpreterNestedClassTest.TestConfig.class)
 * Using Component Scans
     * @Configuration @ComponentScan("org.springframework.samples.petclinic.sfg") static class TestConfig {}
+* Setting Active Profiles for Tests
+    * org.springframework.test.context.ActiveProfiles
+    * org.springframework.context.annotation.Profile
