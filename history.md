@@ -24,3 +24,4 @@
         * `MockMvc mockMvc = MockMvcBuilders.standaloneSetup(controller).build()`
         * MockMvcRequestBuilders
         * MockMvcResultMatchers
+    * Spring Web Configuration with XML
