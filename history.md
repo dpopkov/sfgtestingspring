@@ -19,3 +19,8 @@
         * @Value("${say.word}") -- will be injected by Spring Context
         * @TestPropertySource("classpath:word.properties")  -- annotate test class
     * Assignment - Create Profile for Properties [HearingInterpreterLaurelPropertiesTest](src/test/java/org/springframework/samples/petclinic/sfg/junit5/HearingInterpreterLaurelPropertiesTest.java)
+* Spring MVC Test
+    * Spring Mock MVC Standalone Setup
+        * `MockMvc mockMvc = MockMvcBuilders.standaloneSetup(controller).build()`
+        * MockMvcRequestBuilders
+        * MockMvcResultMatchers
